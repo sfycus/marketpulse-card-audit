@@ -1,0 +1,21 @@
+{
+  "name": "marketpulse-card-audit",
+  "version": "1.0.0",
+  "description": "Interactive marketplace product-card audit dashboard for WB/Ozon/Yandex Market sellers.",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "check": "node --check src/audit-engine.js && node --check src/demo-data.js && node --check src/app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "marketplace",
+    "wildberries",
+    "ozon",
+    "audit",
+    "dashboard",
+    "conversion"
+  ],
+  "author": "Kirill Sukhov",
+  "license": "MIT"
+}

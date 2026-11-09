@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketPulse Card Audit</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Marketplace intelligence</p>
+          <h1>Product card audit dashboard</h1>
+          <p class="hero-copy">
+            Score a seller card, compare it with competitors and get a prioritized action plan before redesigning the listing.
+          </p>
+        </div>
+        <div class="score-card">
+          <span class="score-label">Conversion score</span>
+          <strong id="scoreValue">0</strong>
+          <span id="scoreGrade" class="grade">Loading</span>
+        </div>
+      </section>
+
+      <section class="layout">
+        <aside class="panel controls">
+          <h2>Card Inputs</h2>
+          <label>
+            Product title
+            <textarea id="titleInput" rows="4"></textarea>
+          </label>
+          <label>
+            Search keywords
+            <textarea id="keywordsInput" rows="5"></textarea>
+          </label>
+          <div class="number-grid">
+            <label>
+              Images
+              <input id="imageInput" type="number" min="0" />
+            </label>
+            <label>
+              Videos
+              <input id="videoInput" type="number" min="0" />
+            </label>
+            <label>
+              Rating
+              <input id="ratingInput" type="number" min="1" max="5" step="0.1" />
+            </label>
+            <label>
+              Reviews
+              <input id="reviewsInput" type="number" min="0" />
+            </label>
+            <label>
+              Price
+              <input id="priceInput" type="number" min="0" />
+            </label>
+            <label>
+              Old price
+              <input id="oldPriceInput" type="number" min="0" />
+            </label>
+          </div>
+          <button id="resetButton" type="button">Reset demo data</button>
+        </aside>
+
+        <section class="content">
+          <div class="panel">
+            <div class="section-head">
+              <h2>Audit Breakdown</h2>
+              <span id="riskLevel" class="pill">Risk</span>
+            </div>
+            <div id="metricGrid" class="metric-grid"></div>
+          </div>
+
+          <div class="panel">
+            <div class="section-head">
+              <h2>Competitor Snapshot</h2>
+              <span class="pill soft">Live model</span>
+            </div>
+            <div id="competitorTable" class="table"></div>
+          </div>
+
+          <div class="panel">
+            <div class="section-head">
+              <h2>Action Plan</h2>
+              <span id="actionCount" class="pill soft">0 tasks</span>
+            </div>
+            <ol id="actionPlan" class="action-list"></ol>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

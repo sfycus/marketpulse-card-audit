@@ -1,0 +1,20 @@
+<svg width="1200" height="640" viewBox="0 0 1200 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="640" rx="32" fill="#0D1020"/>
+  <circle cx="256" cy="72" r="260" fill="#7CF7D4" opacity=".16"/>
+  <circle cx="1050" cy="110" r="300" fill="#A855F7" opacity=".22"/>
+  <rect x="56" y="54" width="1088" height="532" rx="22" fill="#151B31" stroke="white" stroke-opacity=".12"/>
+  <text x="92" y="116" fill="#7CF7D4" font-size="22" font-family="Arial" font-weight="700">MARKETPLACE INTELLIGENCE</text>
+  <text x="92" y="185" fill="#F7F8FF" font-size="60" font-family="Arial" font-weight="900">Product Card Audit</text>
+  <text x="92" y="232" fill="#A9B2D6" font-size="24" font-family="Arial">Score, competitor gaps and prioritized tasks for sellers.</text>
+  <rect x="92" y="300" width="300" height="168" rx="16" fill="#0B1024" stroke="white" stroke-opacity=".12"/>
+  <text x="122" y="350" fill="#A9B2D6" font-size="22" font-family="Arial">Conversion score</text>
+  <text x="122" y="430" fill="#7CF7D4" font-size="76" font-family="Arial" font-weight="900">71</text>
+  <rect x="442" y="300" width="300" height="168" rx="16" fill="#0B1024" stroke="white" stroke-opacity=".12"/>
+  <text x="472" y="350" fill="#A9B2D6" font-size="22" font-family="Arial">Media Pack</text>
+  <rect x="472" y="396" width="220" height="18" rx="9" fill="white" opacity=".12"/>
+  <rect x="472" y="396" width="154" height="18" rx="9" fill="#A855F7"/>
+  <rect x="792" y="300" width="300" height="168" rx="16" fill="#0B1024" stroke="white" stroke-opacity=".12"/>
+  <text x="822" y="350" fill="#A9B2D6" font-size="22" font-family="Arial">Action Plan</text>
+  <text x="822" y="397" fill="#F7F8FF" font-size="24" font-family="Arial" font-weight="700">6 high-impact tasks</text>
+  <text x="822" y="435" fill="#7CF7D4" font-size="20" font-family="Arial">SEO, visuals, trust, offer</text>
+</svg>
